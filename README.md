@@ -22,6 +22,7 @@ rustc Terminal.rs
 
 ## in Termux:
 pkg update && pkg upgrade
+
 pkg install rust git
 
 git clone https://github.com/Vext-droid/Vext-My-Rust-Terminal.git
