@@ -23,7 +23,9 @@ pkg update && pkg upgrade
 pkg install rust git
 
 git clone https://github.com/Vext-droid/Vext-My-Rust-Terminal.git
+
 cd Vext-My-Rust-Terminal
 
 rustc Terminal.rs
+
 ./Terminal
