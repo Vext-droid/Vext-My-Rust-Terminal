@@ -8,3 +8,19 @@ Considering that Vext is in its first version, at the moment you can generate SO
 it can translate some words
 
 ## How to compile code in Linux and Termux ▶️
+
+## in Linux:
+git clone https://github.com/Vext-droid/Vext-My-Rust-Terminal.git
+cd Vext-My-Rust-Terminal
+rustc Terminal.rs
+./Terminal
+
+## in Termux:
+pkg update && pkg upgrade
+pkg install rust git
+
+git clone https://github.com/Vext-droid/Vext-My-Rust-Terminal.git
+cd Vext-My-Rust-Terminal
+
+rustc Terminal.rs
+./Terminal
