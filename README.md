@@ -11,8 +11,11 @@ it can translate some words
 
 ## in Linux:
 git clone https://github.com/Vext-droid/Vext-My-Rust-Terminal.git
+
 cd Vext-My-Rust-Terminal
+
 rustc Terminal.rs
+
 ./Terminal
 
 ## in Termux:
